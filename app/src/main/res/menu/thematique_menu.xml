@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_item"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Menu"
+        app:showAsAction="always">
+        <menu app:showAsAction="always">
+            <item
+                android:id="@+id/id_suivie"
+                android:title="Suivie"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/id_quit"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Quitter"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/id_deco"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Deconnection"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

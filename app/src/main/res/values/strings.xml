@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gestion_Relation_Citoyen</string>
+    <string name="txtcondition">Conditon utilisation</string>
+    <string name="mention_l_gale"><a href="https://www.google.com">Mention légale</a></string>
+</resources>
